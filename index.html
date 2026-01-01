@@ -691,16 +691,6 @@
             event.preventDefault();
             window.open("Krishna_Sharma(Resume).pdf", "_blank");
         }
-
-        // Parallax effect on scroll
-        window.addEventListener('scroll', () => {
-            const scrolled = window.pageYOffset;
-            const hero = document.querySelector('.hero-content');
-            if (hero) {
-                hero.style.transform = `translateY(${scrolled * 0.5}px)`;
-                hero.style.opacity = 1 - scrolled / 700;
-            }
-        });
     </script>
 </body>
 </html>
